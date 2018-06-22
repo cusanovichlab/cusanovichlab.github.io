@@ -13,6 +13,7 @@ url: "https://cusanovichlab.github.io"
 # NB! Without this *nothing* will work, because it's used in every path :)
 
 #baseurl: /personal-jekyll-theme
+baseurl: "/"
 
 # Google tracking id
 
@@ -111,16 +112,16 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+#email-share: True
+#fb-share: True
+#twitter-share: True
+#linkedin-share: True
+#reddit-share: True
+#google-plus-share: True
+#tumblr-share: True
+#pinterest-share: True
+#pocket-share: True
+#vkontakte-share: True
 
 disqus-shortname: "panossakkos"
 
@@ -146,7 +147,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "darrenc@email.arizona.edu"
 
 ################
 # Author Blurb #
