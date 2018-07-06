@@ -42,24 +42,24 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/WebsiteBannerImage.png"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+#dynamic-typing: True
+#shuffle: True # Shuffle the lines.
+#loop: True
+#loop-count: False # Set False for infinite loop, or set any number for finite loop.
+#type-speed: 10
+#start-delay: 200
+#delete-delay: 5000
+#lines: # You can add HTML Tags in the Text
+#  - text: "The lower you fall, the higher you'll fly."
+#  - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -197,9 +197,9 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
+  Research: 'about'
+  People: 'latest-post'
+  Publications: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
