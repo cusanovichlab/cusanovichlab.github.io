@@ -14,15 +14,42 @@ Lab: 520-626-6862
 <br>
 <br>
 Or if you prefer, you can send your message here:<br />
-<form id="contactform" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
-</form>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+$(document).ready(function() {
+	var $sub = $("#_subject");
+	$("#email").on("input", function() {
+		$sub.val("Blog Contact Form (" + $(this).val() + ")");
+	});
+});
 </script>
+<style>
+#contactform label {
+	display: inline-block;
+	width: 80px;
+	height:25px;
+}
+
+#contactform textarea {
+	width: 100%;
+	height: 150px;
+}			
+</style>
+	
+<form action="//formspree.io/darrenc@email.arizona.edu" method="POST" id="contactform">
+	<input type="hidden" name="_next" value="{{% siteurl %}}">
+	<input type="hidden" name="_subject" id="_subject" value="Blog Contact Form">
+	<input type="text" name="_gotcha" style="display:none" />
+	
+	<label for="contact_name">Name: </label>
+	<input type="text" name="name" id="contact_name" required><br/>
+	
+	<label for="email">Email: </label>
+	<input type="email" name="_replyto" id="email" required><br/>
+	
+	<label for="contact_comments">Comments: </label><br/>
+	<textarea name="comments" id="contact_comments" required></textarea><br/>
+	<p>
+	<input type="submit" value="Send">
+	</p>
+</form>
