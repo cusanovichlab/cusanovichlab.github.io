@@ -26,30 +26,30 @@ $(document).ready(function() {
 <style>
 #contactform label {
 	display: inline-block;
-	width: 80px;
+	width: 25%;
 	height:25px;
 }
 
 #contactform textarea {
-	width: 100%;
+	width: 25%;
 	height: 150px;
 }			
 </style>
 	
 <form action="//formspree.io/darrenc@email.arizona.edu" method="POST" id="contactform">
 	<input type="hidden" name="_next" value="{{% siteurl %}}">
-	<input type="hidden" name="_subject" id="_subject" value="Blog Contact Form">
+	<input type="hidden" name="_subject" id="_subject" value="Website Contact Form">
 	<input type="text" name="_gotcha" style="display:none" />
 	
 	<label for="contact_name">Name: </label>
-	<input type="text" name="name" id="contact_name" required><br/>
+	<input type="text" name="name" id="contact_name" placeholder="Your name" required><br/>
 	
 	<label for="email">Email: </label>
-	<input type="email" name="_replyto" id="email" required><br/>
+	<input type="email" name="_replyto" id="email" placeholder="Your email" required><br/>
 	
 	<label for="contact_comments">Comments: </label><br/>
-	<textarea name="comments" id="contact_comments" required></textarea><br/>
+	<textarea name="comments" id="contact_comments" placeholder="Message" required></textarea><br/>
 	<p>
-	<input type="submit" value="Send">
+	<btn type="submit">Send</btn>
 	</p>
 </form>
