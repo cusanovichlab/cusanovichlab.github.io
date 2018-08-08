@@ -34,13 +34,13 @@ author: "Darren Cusanovich"
 title: "The Cusanovich Lab"
 description: "Official site of the Cusanovich Lab. Check here for the latest from our group."
 keywords: "cusanovich, darren, lab, single-cell, genomics, asthma"
-favicon: "/img/favicon.ico"
+favicon: "/img/DrCLogo.png.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/DrCLogo.png.ico"
 
 background-img: "../img/WebsiteBannerImage.png"
 
