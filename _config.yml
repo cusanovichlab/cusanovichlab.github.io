@@ -40,7 +40,7 @@ favicon: "/img/DrCLogo.png.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/DrCLogo_white.png.ico"
+black-favicon: "/img/DrCLogo_white.png_16x16.png"
 
 background-img: "../img/WebsiteBannerImage.png"
 
