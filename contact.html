@@ -33,7 +33,16 @@ $(document).ready(function() {
 #contactform textarea {
 	width: 25%;
 	height: 150px;
-}			
+}
+input[type=submit] {
+    background-color:  transparent;
+    border: #00cdff;
+    color: #00cdff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 </style>
 	
 <form action="//formspree.io/darrenc@email.arizona.edu" method="POST" id="contactform">
@@ -50,6 +59,6 @@ $(document).ready(function() {
 	<label for="contact_comments">Comments: </label><br/>
 	<textarea name="comments" id="contact_comments" placeholder="Message" required></textarea><br/>
 	<p>
-	<btn type="submit">Send</btn>
+	<input type="submit">Send</input>
 	</p>
 </form>
