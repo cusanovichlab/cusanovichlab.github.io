@@ -6,7 +6,7 @@
     <div class="col-md-10 col-md-offset-1">
 
       {{ page.content | markdownify }}
-
+<!--
       {% if site.email %}
         {% if site.email contains '@' %}
           {% assign newemail = site.email | split: '@' %}
@@ -27,7 +27,7 @@
           <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         {% endif %}
       {% endif %}
-
+-->
     </div>
   </div>
 </section>
