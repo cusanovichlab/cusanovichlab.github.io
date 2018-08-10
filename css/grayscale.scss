@@ -301,6 +301,27 @@ a {
     background-color: $secondary-color;
 }
 
+/* Added for Cusanovich Lab */
+.btn-foot {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.btn-foot:hover,
+.btn-foot:focus {
+    border: 1px solid white;
+    outline: 0;
+    color: #000;
+    background-color: white;
+}
+
 /* Added in { Personal } */
 ul.social-buttons li a {
     display: block;
