@@ -14,7 +14,7 @@ Lab: 520-626-6862<br />
 <a href="mailto:darrenc@email.arizona.edu">darrenc@email.arizona.edu</a>
 <br>
 <br>
-Or if you prefer, you can send your message here:<br />
+Or if you prefer, you can send a message here:<br />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
@@ -36,6 +36,7 @@ $(document).ready(function() {
 #contactform textarea {
 	width: 40%;
 	height: 150px;
+	color: #000000;
 }
 /*
 input[type=submit] {
@@ -65,14 +66,14 @@ input[type=submit] {
 	<input type="hidden" name="_subject" id="_subject" value="Website Contact Form">
 	<input type="text" name="_gotcha" style="display:none" />
 	
-	<label for="contact_name">Name* </label>
-	<input type="text" name="name" id="contact_name" placeholder="Your name" required><br/>
+	<!-- <label for="contact_name">Name* </label> -->
+	<input type="text" name="name" id="contact_name" placeholder="Your name<sup>*</sup>" required><br/>
 	
-	<label for="email">E-mail* </label>
-	<input type="email" name="_replyto" id="email" placeholder="Your e-mail" required><br/>
+	<!-- <label for="email">E-mail* </label> -->
+	<input type="email" name="_replyto" id="email" placeholder="Your e-mail<sup>*</sup>" required><br/>
 	
-	<label for="contact_comments" style="width:40%;text-align:left">Message* </label><br/>
-	<textarea name="comments" id="contact_comments" placeholder="Your message" required></textarea><br/>
+	<!-- <label for="contact_comments" style="width:40%;text-align:left">Message* </label><br/> -->
+	<textarea name="comments" id="contact_comments" placeholder="Your message<sup>*</sup>" required></textarea><br/>
 	<p>
 	<input type="submit" class="btn-default" value="Send">
 	</p>
