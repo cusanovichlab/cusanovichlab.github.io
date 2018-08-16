@@ -38,6 +38,14 @@ $(document).ready(function() {
 	height: 150px;
 	color: #000000;
 }
+input[type=text] {
+	color: #000000;
+	text-align: left;
+}
+input[type=email] {
+	color: #000000;
+	text-align: left;
+}
 /*
 input[type=submit] {
     border-radius: 10px;
@@ -67,13 +75,13 @@ input[type=submit] {
 	<input type="text" name="_gotcha" style="display:none" />
 	
 	<!-- <label for="contact_name">Name* </label> -->
-	<input type="text" name="name" id="contact_name" placeholder="Your name<sup>*</sup>" required><br/>
+	<input type="text" name="name" id="contact_name" placeholder="Your name*" required><br/>
 	
 	<!-- <label for="email">E-mail* </label> -->
-	<input type="email" name="_replyto" id="email" placeholder="Your e-mail<sup>*</sup>" required><br/>
+	<input type="email" name="_replyto" id="email" placeholder="Your e-mail*" required><br/>
 	
 	<!-- <label for="contact_comments" style="width:40%;text-align:left">Message* </label><br/> -->
-	<textarea name="comments" id="contact_comments" placeholder="Your message<sup>*</sup>" required></textarea><br/>
+	<textarea name="comments" id="contact_comments" placeholder="Your message*" required></textarea><br/>
 	<p>
 	<input type="submit" class="btn-default" value="Send">
 	</p>
